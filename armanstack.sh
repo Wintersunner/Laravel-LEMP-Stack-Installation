@@ -22,6 +22,8 @@ sudo apt install php8.2 -y
 
 sudo apt install php8.2-fpm -y
 
+sudo apt install php8.2-redis -y
+
 sudo apt install php8.2-bcmath -y
 
 sudo apt install php8.2-curl -y
