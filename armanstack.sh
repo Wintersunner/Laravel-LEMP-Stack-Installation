@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sudo sed "/#\$nrconf{restart} = 'i';/s/.*/\$nrconf{restart} = 'a';/" /etc/needrestart/needrestart.conf
+
 sudo apt update -y
 
 sudo apt upgrade -y
